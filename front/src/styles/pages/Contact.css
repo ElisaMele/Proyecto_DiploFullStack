@@ -28,19 +28,29 @@ label {
     padding-bottom: 52px;
 }
 
-#name, #telephone, #email {
+#name,
+#telephone,
+#email {
     width: 100%;
     height: 35px;
     margin-bottom: 20px;
     border-color: #B9B9B9;
     border-style: solid;
     border-width: 1px;
+    padding: 7px;
 }
 
 #msg {
     border-color: #B9B9B9;
     resize: vertical;
     max-width: 100%;
+    padding: 7px;
+}
+
+form>p {
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 input[type="submit"] {
