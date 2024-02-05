@@ -1,7 +1,7 @@
 var pool = require('./bd');
 
 async function getComentarios() {
-    var query = 'select * from valoraciones'
+    var query = 'select * from valoraciones ORDER by id ASC'
     var rows = await pool.query(query);
     return rows;
 }
